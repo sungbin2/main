@@ -1,0 +1,389 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+   
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+	<script type="text/javascript" src="js/basic.js"></script>
+	<script type="text/javascript" src="js/menuTop.js"></script>
+	 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/basic.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contents.css" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<title>창업에듀</title>
+
+
+
+
+
+</head>
+
+<body>
+<div id="wrap" class="black-cr  trans-cr">
+
+	<!-- #header -->	
+	<header id="header">
+		<nav id="skipNavi">
+			<ul>
+				<li><a href="#content">본문 바로가기</a></li>
+				<li><a href="#headercenter">주메뉴 바로가기</a></li>
+			</ul>
+		</nav>	
+	
+	
+	<div class="headercenter">
+		<h1><a href="#">창업에듀</a></h1>
+		
+		<div id="menu_wrap">
+			<ul>
+				<li>
+					<a href="#" class="btn01" ><span>창업교육</span></a>
+					<div class="wrap_depth2 dep01">
+						<div class="title">창업교육</div>
+						<ul class="menu_depth2 ">
+							<li><a href="#" >기업가정신</a></li>
+							<li><a href="#" >창업준비</a></li>
+							<li><a href="#" >창업실현</a></li>
+							<li><a href="#" >성장전략</a></li>
+							<li><a href="#" >핫클립</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#" class="btn01"><span>패키지과정</span></a>
+					<div class="wrap_depth2 dep02">
+						<div class="title">패키지과정</div>
+						<ul class="menu_depth2 ">
+							<li><a href="#" >창진원</a></li>
+							<li><a href="#" >주관기관</a></li>
+							<li><a href="#" >기관협업</a></li>
+							<li><a href="#" >민간</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#" class="btn01" ><span>혁신창업스쿨</span></a>
+					<div class="wrap_depth2 dep03">
+						<div class="title">혁신창업스쿨</div>
+						<ul class="menu_depth2 ">
+							<li><a href="#" >혁신창업 스쿨</a></li>
+							<li><a href="#" >딥테크 스쿨</a></li>
+							<li><a href="#" >딥테크 스쿨 A</a></li>
+							<li><a href="#" >딥테크 스쿨 B</a></li>
+							<li><a href="#" >딥테크 스쿨 C</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#" class="btn01" ><span>창업에듀 소개</span></a>
+					<div class="wrap_depth2 dep04">
+						<div class="title">창업에듀 소개</div>
+						<ul class="menu_depth2 ">
+							<li><a href="#" >창업에듀란?</a></li>
+							<li><a href="#" >창업에듀 활용법</a></li>
+							<li><a href="#" >창업에듀 매뉴얼</a></li>
+							<li><a href="#" >공지사항</a></li>
+							<li><a href="#" >F&A</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="rightunit">
+			<ul>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li class="m_none"><a href="#">아이디·비밀번호찾기</a></li>
+			</ul>
+		</div>
+		<a href="#" class="m_navi" onclick="toggle_mobile_menu(); return false;">메뉴보기</a>
+	</div>
+	<div class="menu_line"></div>
+
+	<!-- 검색영역 -->
+	<div class="wrap_head_search">
+		<div class="head_search">
+			<input type="text" placeholder="교육과정검색" class="text">
+			<button type="button" class="btn" >검색</button>
+		</div>
+	</div>
+	<!-- //검색영역 -->
+
+	</header>
+	<div class="header_bg"></div>
+	<!-- //#header -->
+
+
+
+
+<!-- 모바일 네비메뉴 -->
+<div class="header_fullmenu_m" style="display: none;" >	
+	<div id="navigation_mobile">
+		<div class="top_btnbox">
+			<a href="#" class="n_login">로그인</a>
+			<a href="#" class="n_join">회원가입</a>
+		</div>
+		<ul class="depth1" id="navigation_m">
+			<li><a href="#" >창업교육<span class="planprice"></span></a>
+				<ul class="depth2 ">
+					<li><a href="#" >기업가정신</a></li>
+					<li><a href="#" >창업준비</a></li>
+					<li><a href="#" >창업실현</a></li>
+					<li><a href="#" >성장전략</a></li>
+					<li><a href="#" >핫클립</a></li>
+				</ul>
+			</li>
+			<li><a href="#" >패키지과정<span class="planprice"></span></a>
+				<ul class="depth2 ">
+					<li><a href="#" >창진원</a></li>
+					<li><a href="#" >주관기관</a></li>
+					<li><a href="#" >기관협업</a></li>
+					<li><a href="#" >민간</a></li>
+				</ul>
+			</li>
+			<li><a href="#" >혁신창업스쿨<span class="planprice"></span></a>
+				<ul class="depth2 ">
+					<li><a href="#" >혁신창업 스쿨</a></li>
+					<li><a href="#" >딥테크 스쿨</a></li>
+					<li><a href="#" >딥테크 스쿨 A</a></li>
+					<li><a href="#" >딥테크 스쿨 B</a></li>
+					<li><a href="#" >딥테크 스쿨 C</a></li>
+				</ul>
+			</li>
+			<li><a href="#" >창업에듀 소개<span class="planprice"></span></a>
+				<ul class="depth2 ">
+					<li><a href="#" >창업에듀란?</a></li>
+					<li><a href="#" >창업에듀 활용법</a></li>
+					<li><a href="#" >창업에듀 매뉴얼</a></li>
+					<li><a href="#" >공지사항</a></li>
+					<li><a href="#" >F&A</a></li>
+				</ul>
+			</li>	
+		</ul>				
+	</div>
+</div>
+<!-- //모바일 네비메뉴 -->
+
+
+			
+
+
+
+<!-- 중단영역 -->
+<div class="wrap_cont">
+	<div class="contents">
+		<div class="info_navi">
+			<span>마이페이지</span><span>나의 강의실</span>
+		</div>
+		<div class="contents_title"><span>나의 강의실</span></div>
+
+		<!-- 탭영역 -->
+		<div class="wrap_tap mt70">			
+			<a href="#">학습중인 개별강좌</a>
+			<a href="#" class="on">학습중인 패키지 강좌</a>
+			<a href="#">학습중인 혁신창업스쿨</a>
+			<a href="#">학습완료 개별강좌</a>
+			<a href="#">학습완료 패키지 과정</a>
+			<a href="#">학습완료 혁신창업스쿨</a>
+		</div>
+		<div class="wrap_tap_m mt40">
+			<select class="form-control">
+			  <option>학습중인 개별강좌</option>
+			  <option>학습중인 패키지 강좌</option>
+			  <option>Q학습중인 혁신창업스쿨</option>
+			  <option>학습완료 개별강좌</option>
+			  <option>학습완료 패키지 과정</option>
+			  <option>학습완료 혁신창업스쿨</option>
+			</select>
+		</div>
+		<!-- 탭영역 -->
+		
+		
+		<!-- 게시판탑영역 -->
+		<div class="wrap_board_top mt45">
+			<div class="info">설문조사 후 수료증 발급이 가능 합니다</div>
+			<div class="right">
+				<select class="form-control basic w100">
+				  <option>최근순</option>
+				</select>
+			</div>
+		</div>
+		<!-- 게시판탑영역 -->
+			
+				<!--게시판 리스트 -->
+				<div class="table-responsive mt20">
+			  <table class="table basic board">
+				<colgroup>
+					<col width="70px">
+					<col width="90px">
+					<col width="">
+					<col width="120px">
+					<col width="120px">
+				</colgroup>
+				<thead>
+				  <tr>
+				  <th class="center">번호</th>
+				  <th class="center">운영기관</th>
+				  <th class="center">강좌명</th>
+				  <th class="center">수료일</th>
+				  <th class="center">수료증</th>
+				</tr></thead><tbody>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				  <tr>
+					<td class="center">1</td>
+					<td class="center"></td>
+					<td><a href="#">스타트업이 겪는 인사(법) 관련 下</a></td>
+					<td class="center">2023-01-11</td>
+					<td class="center"><a href="#" class="btn_basic">수료증 출력</a></td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
+			  <!--게시판 리스트 -->	
+			
+			 <!--게시판 하단 -->	
+			<div class="wrap_b_bottom">
+				<!--페이징 -->	
+				<div class="pagegroup">
+					<a href="#" class="on">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+				</div>
+				<!--페이징 -->	
+			</div>
+			<!--게시판 하단 -->	
+			  
+
+
+		
+
+
+
+
+
+	</div>
+</div>
+<!-- 중단영역 -->
+
+
+
+
+
+
+
+<!-- 푸터 -->
+<div class="wrap_footer">
+	<div class="footer_box">
+		<div class="logo"></div>
+		<div class="footinfo">
+			<ul>
+				<li><a href="#">창업진흥원</a></li>
+				<li><a href="#">개안정보관리지침</a></li>
+				<li><a href="#" class="m_bord_none">이용약관</a></li>
+				<li><a href="#" class="btn_sitelink" onclick="toggle_sitelink(); return false;">관련사이트</a>
+					<div class="toggle_box">
+						<ul>
+							<li><a href="#">중소기업벤처기업부</a></li>
+							<li><a href="#">창업진흥원</a></li>
+							<li><a href="#">K 스타트업</a></li>
+							<li><a href="#">온라인 법인설립시스템</a></li>
+							<li><a href="#">아이디어마루</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="info">
+			<ul>
+				<li><span class="title">주관</span>중소벤처기업부 <span class="splitbox">세종특별자치시 가름로 180, 세종파이낸스센터 3차 4~6층</span></li>
+				<li><span class="title">운영</span>창업진흥원 <span class="splitbox">세종특별자치시 집현중앙7로 16</span></li>
+			</ul>
+		</div>
+		<div class="f_sns">
+			<ul>
+				<li><a href="#"><img src="img/sub/btn_yuotube.svg"/></a></li>
+				<li><a href="#"><img src="img/sub/btn_facebook.svg"/></a></li>
+				<li><a href="#"><img src="img/sub/btn_band.svg"/></a></li>
+			</ul>
+		</div>
+		<div class="copyright">COPYRIGHT ⓒ 중소벤처기업부 . ALL RIGHTS RESERVED</div>
+	</div>
+</div>
+<!-- 푸터 -->
+
+</div>
+</body>
+</html>

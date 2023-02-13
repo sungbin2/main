@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+.clearbox {clear: both;}
+/* 비쥬얼컨트 */
+.wrap_visualcont {width:100%;min-width:1440px; height:889px; background: url("../img/main/main_visual.png") center 153px no-repeat;padding-top:208px;font-family: 'Noto Sans KR';}
+.wrap_visualcont .visualcont {width: 1400px;height:624px; background-color: #fff; margin:0 auto;border-radius: 14px;padding:20px}
+
+/* 공지사항 */
+.wrap_board {width:100%; height:70px; background-color:#0054A6 ;position: relative;}
+.wrap_board .btitle {width:175px; height:70px;line-height: 70px; background-color:#002063 ; color:#fff;font-size: 24px; font-weight: 500; text-align:center}
+.wrap_board .btitle span {display: inline-block; line-height: 25px;margin-right:8px}
+.wrap_board .blindbox {width:1100px; height:35px; overflow: hidden;position: absolute; left:180px; top:19px; }
+.wrap_board .blindbox .b_list li {float:left}
+.wrap_board .blindbox .b_list a {width:530px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;display: block; color:#fff;font-size: 20px; font-weight: 500; background:url("../img/main/blit_wr.png") left center no-repeat; background-size: 5px; padding-left:10px;margin-left:20px}
+.wrap_board .btnbox {position: absolute;right:0;top:0;width:40px; height:100%; border-left: 1px solid #fff;}
+.wrap_board .btnbox .btn_up {display: block; width:40px;height:35px;background: url("../img/main/bnt_up.svg") center center no-repeat;border-bottom: 1px solid #fff;}
+.wrap_board .btnbox .btn_down {display: block; width:40px;height:35px;background: url("../img/main/btn_down.svg") center center no-repeat;}
+
+/* 메인배너 */
+.wrap_mainbanner {float:left;width:788px;height:494px;margin-top:20px;border: 1px solid #E5E7EB; border-radius: 4px;}
+.wrap_mainbanner .carousel-indicators li {width:8px;height:8px; background-color:#E5E7EB ; opacity: 1; border:none; border-radius: 8px;}
+.wrap_mainbanner .carousel-indicators .active {background-color: #9CA3AF;}
+
+/* 비디오영역 */
+.wrap_video {float:right;width:552px; height:494px;margin: 20px 0 0 20px; padding:15px; border: 1px solid #CDCDCD; border-radius: 4px;}
+.wrap_video .videobox {width:100%; height:303px; border-radius:4px; overflow:hidden}
+.wrap_video .vtitle {font-size: 32px; font-weight: 500; color:#111827 ; margin-top:15px}
+.wrap_video .body {font-size: 20px; font-weight: 400; color:#636871 ; margin-top:10px}
+
+/* 미들 컨텐츠 */
+.wrap_middlecont {width:100%; font-family: 'Noto Sans KR';}
+.middlecont {width:1440px; margin:0 auto;padding:0 20px; margin-bottom:100px }
+.middlecont .md_title {font-size: 40px;font-weight: 700; color:#111827 ; text-align: center; margin-top:50px;margin-bottom:40px; }
+.middlecont .edubox {width:263px;height:280px;border-left: 1px solid #e5e7eb;border-right: 1px solid #e5e7eb; text-align: center;float:left;margin-left:21px; border-bottom: 3px solid #F39800;}
+.middlecont .edubox:first-child {margin-left:0}
+.middlecont .edubox .e_title {width:100%; height:50px; line-height: 50px; color:#fff;font-size: 20px; font-weight: 500;background-color:#F39800 ; }
+.middlecont .edubox ul li a {font-size: 16px; font-weight: 500;color:#636871;padding:4px;display: block;}
+.middlecont .edubox .triangle-down {width: 0; height: 0; border-left: 7px solid transparent; border-right: 7px solid transparent; border-top: 5px solid #F39800; margin:0 auto;margin-bottom:12px}
+
+.middlecont .edubox:nth-child(2) {border-bottom: 3px solid #0054A6;}
+.middlecont .edubox:nth-child(2) .e_title {background-color:#0054A6;}
+.middlecont .edubox:nth-child(2) .triangle-down {border-top: 5px solid #0054A6;}
+.middlecont .edubox:nth-child(3) {border-bottom: 3px solid #00A4B6;}
+.middlecont .edubox:nth-child(3) .e_title {background-color:#00A4B6;}
+.middlecont .edubox:nth-child(3) .triangle-down {border-top: 5px solid #00A4B6;}
+.middlecont .edubox:nth-child(4) {border-bottom: 3px solid #980030;}
+.middlecont .edubox:nth-child(4) .e_title {background-color:#980030;}
+.middlecont .edubox:nth-child(4) .triangle-down {border-top: 5px solid #980030;}
+.middlecont .edubox:nth-child(5) {border-bottom: 3px solid #002063;}
+.middlecont .edubox:nth-child(5) .e_title {background-color:#002063;}
+.middlecont .edubox:nth-child(5) .triangle-down {border-top: 5px solid #002063;}
+
+/* 강좌리스트 */
+.wrap_course {position:relative}
+.wrap_course .wrap_title {width:100%; position:relative;}
+.wrap_course .wrap_title .b_count {position:absolute; right:0; top:2px;font-size:14px;font-weight:500; color:#9CA3AF;display:none}
+.wrap_course .wrap_title .b_count .num {color:#636871}
+.wrap_course .c_title {font-size:24px; font-weight:700; color:#636871;margin-bottom:16px}
+.wrap_course .btnbox {position:absolute; right:0; top:0}
+.wrap_course .btnbox .btn_left {float:left; width:24px; height:24px; display:block; background: url("../img/main/btn_left.svg") center center no-repeat;margin-right:4px;opacity:0.6}
+.wrap_course .btnbox .btn_left:hover {opacity:1}
+.wrap_course .btnbox .btn_right {float:left; width:24px; height:24px; display:block; background: url("../img/main/btn_right.svg") center center no-repeat;opacity:0.6}
+.wrap_course .btnbox .btn_right:hover {opacity:1}
+.wrap_list {width:100%}
+.wrap_list .coursebox {position:relative; width:335px; height:334px; border:1px solid #E5E7EB; border-radius:2px;float:left;margin-right:20px;margin-bottom:16px;display:block}
+.wrap_list .coursebox:nth-child(4n) {margin-right:0}
+.wrap_list .coursebox .imgbox {width:100%; height:186px}
+.wrap_list .coursebox .imgbox img {width:100%}
+.wrap_list .coursebox .category {width:60px;height:60px; border-radius:30px; background-color:#F39800; color:#fff; font-size:16px;font-weight:700;line-height:130%; text-align:center;padding-top:10px;position:absolute; left:8px; top:210px}
+.wrap_list .coursebox .category.ct01 {background-color:#F39800;}
+.wrap_list .coursebox .category.ct02 {background-color:#0054A6;}
+.wrap_list .coursebox .category.ct03 {background-color:#00A4B6;}
+.wrap_list .coursebox .category.ct04 {background-color:#980030;}
+.wrap_list .coursebox .category.ct05 {background-color:#002063;}
+.wrap_list .coursebox .textbox {margin-left:100px;margin-top:24px;padding-right:8px}
+.wrap_list .coursebox .textbox .section {font-size:14px; font-weight:500; color:#9CA3AF}
+.wrap_list .coursebox .textbox .title {font-size:20px; font-weight:500; color:#111827;line-height:130%;margin-bottom:14px;margin-top:3px}
+.wrap_list .coursebox .textbox .numberbox {font-size:14px; font-weight:500; color:#9CA3AF}
+.wrap_list .coursebox .textbox .numberbox .count {float:left}
+.wrap_list .coursebox .textbox .numberbox .time {text-align:right; float:right;}
+.wrap_list.wrap_m_course {width:100%; display:none}
+
+
+/* 푸터 컨텐츠 */
+.wrap_footcont {width:100%;min-width:1440px; font-family: 'Noto Sans KR'; height:196px; background: url("../img/main/bg_mbottom.png") center center no-repeat; }
+.footcont {width:1440px; margin:0 auto; display: flex; justify-content: space-between;padding:0 140px }
+.footcont .countbox {width:192px; color:#fff; text-align:center;padding-top:40px;float:left; }
+.footcont .countbox .topbox {padding-bottom:14px}
+.footcont .countbox .topbox .number {font-size:36px; font-weight:700; background: url("../img/main/icon_plus.svg") right 12px no-repeat;padding-right:27px}
+.footcont .countbox .bottombox {font-size:18px; font-weight:500;border-top:1px solid #fff;padding-top:14px}
+
+/* 하단배너 */
+.wrap_fbanner {width:100%}
+.wrap_fbanner .fbanner {width:1440px;height:70px;margin:0 auto;padding:16px 20px 0 20px;display: flex; justify-content: space-between;}
+
+
+
+/****** 770px Device ******/
+@media screen and (max-width:770px) {
+.m_none {display:none}
+
+.wrap_visualcont {min-width: auto; height:auto;background: url(../img/main/main_visual.png) center 153px no-repeat; background-size:cover;padding-bottom: 20px; padding-top: 188px;}
+.wrap_visualcont .visualcont {width:calc(100% - 40px); height:auto}
+.wrap_board .btitle {width:139px;}
+.wrap_board .btnbox {display:none}
+.wrap_board .blindbox {left:140px; width:calc(100% - 140px);}
+.wrap_board .blindbox .b_list li {width:100%}
+.wrap_board .blindbox .b_list a {width:calc(100% - 35px);}
+.wrap_mainbanner {width:100%; height:auto}
+.wrap_video {width:100%;height:auto; margin-left:0}
+
+
+
+.middlecont {width:100%;margin-bottom: 50px;}
+/* 핵심교육과정 */
+.wrap_scroll {overflow-x: scroll;}
+.wrap_list {width:3000px}
+.middlecont .edubox {width:calc(33.3% - 14px);height:244px; margin-left:21px;margin-bottom:19px}
+.middlecont .edubox:nth-child(4) {margin-left:0}
+.middlecont .edubox .e_title {height:43px;line-height:43px}
+.middlecont .edubox .triangle-down {margin-bottom: 2px;}
+.middlecont .edubox ul li a {padding:3px}
+/* 강좌리스트 */
+.wrap_course .btnbox {display:none}
+/* 푸터 컨텐츠 */
+.wrap_footcont {min-width:auto;height:159px;background: url(../img/main/bg_mbottom_m.png) center center no-repeat;background-size:cover}
+.footcont {width:100%; padding:0 40px }
+.footcont .countbox {padding-top:25px}
+/* 하단배너 */
+.wrap_fbanner .fbanner {width:100%}
+}
+
+/****** 600px Device ******/
+@media screen and (max-width:600px) {
+
+/* 푸터 컨텐츠 */
+.wrap_fbanner .fbanner {height:40px;margin-bottom:5px;padding-top:11px;border-top:1px solid #E5E7EB}
+.wrap_fbanner .fbanner a {height:24px}
+.wrap_fbanner .fbanner a img {height:100%}
+.wrap_footcont {height: 130px;}
+.footcont .countbox {padding-top:18px; width:140px}
+.footcont .countbox .topbox {padding-bottom: 10px;}
+.footcont .countbox .topbox .number {font-size: 25px;}
+.footcont .countbox .bottombox {font-size: 18px;}
+}
+
+/****** 500px Device ******/
+@media screen and (max-width:500px) {
+
+.wrap_board {height:120px}
+.wrap_board .btitle {width:100%;height:61px;text-align:center}
+.wrap_board .blindbox {left:0; top:75px; width:100%}
+
+.wrap_video .videobox {height:180px}
+.wrap_video .vtitle {font-size:24px}
+.wrap_video .body {font-size:18px}
+
+.middlecont .md_title {font-size:24px; margin-top: 24px; margin-bottom: 32px;}
+.middlecont .edubox {width: calc(50% - 10px); margin-left: 20px;}
+.middlecont .edubox:nth-child(2n + 1) {margin-left: 0;}
+.middlecont .edubox:nth-child(4) {margin-left: 20px;}
+
+.wrap_footcont {display:none}
+}
+
+
+
+/****** 400px Device ******/
+@media screen and (max-width:400px) {
+
+.wrap_visualcont {padding-top:170px}
+.wrap_board .btitle {font-size:20px}
+.wrap_board .blindbox {height:30px}
+.wrap_board .blindbox .b_list a {font-size:18px}
+
+.wrap_list .coursebox {WIDTH:100%}
+.wrap_list .coursebox .category {top:8px;}
+.wrap_list .coursebox .textbox {margin-left: 8px;}
+.wrap_course .c_title {font-size:16px}
+.wrap_course .wrap_title .b_count {display:block}
+.wrap_list.wrap_m_course {display:block}
+.wrap_course .wrap_scroll {display:none}
+
+
+}
+
+
+
+/****** 360px Device ******/
+@media screen and (max-width:360px) {
+
+}
